@@ -1,0 +1,36 @@
+{
+  "name": "cod4frontend",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world && webpack",
+    "start": "bsb -make-world -w -ws _ ",
+    "clean": "bsb -clean-world",
+    "server": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "reason-react": ">=0.7.1"
+  },
+  "devDependencies": {
+    "bs-platform": "8.4.2",
+    "css-loader": "5.0.1",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "4.5.1",
+    "moduleserve": "0.9.0",
+    "sass": "^1.32.2",
+    "sass-loader": "10.1.0",
+    "style-loader": "2.0.0",
+    "webpack": "5.12.2",
+    "webpack-cli": "4.3.1",
+    "webpack-dev-server": "3.11.1"
+  }
+}
